@@ -12,5 +12,9 @@ For more information on the feature selection methods, step-by-step guide for th
 For the CLK-MKR pipeline to successfully read the data correctly and complete its process there are a few criteria that should be met before uploading:
 - Methylation levels for CpGs must be normalized prior to uploading.
 - Within the DNAm dataset there must be a column named ‘Age’ that contains the corresponding age of  all samples.
-- There must be no missing values in the data (e.g. NaN)
-- Methylation data must be in .CSV format with the only headers being CpG names and the aforementioned ‘Age’. Any other headers and the pipeline will fail
+- There must be no missing values in the data (e.g. NaN).
+- Methylation data must be in .CSV format with the only headers being CpG names and the aforementioned ‘Age’. Any other headers and the pipeline will fail.
+
+# To begin using CLK-MKR Notebook, make sure you have the methylation data of interest and start by running these two cell blocks to get the necessary dependencies and functions
+
+![part 1](https://user-images.githubusercontent.com/25240354/100318143-d8f21400-2fbd-11eb-948e-fc1bd4c0c9de.png)
