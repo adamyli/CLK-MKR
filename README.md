@@ -32,7 +32,8 @@ The final 'Results' section is optional and only if you want to make use of the 
 
 ![part 3](https://user-images.githubusercontent.com/25240354/100319204-89ace300-2fbf-11eb-97e4-5c7942cc567d.png)
 
-References:
+### References:
+
 Li, A., Vera, D., Sinclair, D., 2020. Clockmaker (CLK-MKR) : A machine learning toolkit for optimal feature selection and epigenetic clock building. Bioinformatics
 
 Li, A., Vera, D., Sinclair, D., 2020. Synthesis of novel feature selection methods and neural networks construct more efficient epigenetic clocks and detect undiscovered predictors of aging. Bioinformatics
