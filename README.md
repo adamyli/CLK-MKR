@@ -7,7 +7,7 @@ It then builds a clock tuned with optimal hyperparameters that researchers can d
 As an added bonus some visualization and clustering of results are also provided.
 
 It is highly recommended that you use the Python Notebook over the shiny .R/.py web application as it is much faster and more computationally efficient. Similar plots are also available using the notebook. However the webapp is available for those who wish to use the interactive plots. 
-For more information on the feature selection methods, step-by-step guide for the shiny app and more please refer to (Webapp paper 2020)
+For more information on the feature selection methods, step-by-step guide for the shiny app and more please refer to the CLK-MKR paper in the references.
 
 For the CLK-MKR pipeline to successfully read the data correctly and complete its process there are a few criteria that should be met before uploading:
 - Methylation levels for CpGs must be normalized prior to uploading.
@@ -31,3 +31,10 @@ Thats the bulk of the tool over! Your finished clock and best CpGs are now avail
 The final 'Results' section is optional and only if you want to make use of the two extra files 'labelled_best_cpgs.csv' and 'age_graph.csv'. The following code will plot the graphs described in the notebook along with the age group clusters
 
 ![part 3](https://user-images.githubusercontent.com/25240354/100319204-89ace300-2fbf-11eb-97e4-5c7942cc567d.png)
+
+References:
+Li, A., Vera, D., Sinclair, D., 2020. Clockmaker (CLK-MKR) : A machine learning toolkit for optimal feature selection and epigenetic clock building. Bioinformatics
+
+Li, A., Vera, D., Sinclair, D., 2020. Synthesis of novel feature selection methods and neural networks construct more efficient epigenetic clocks and detect undiscovered predictors of aging. Bioinformatics
+
+Voisin, S., Harvey, N., Haupt, L., Griffiths, L., Ashton, K., Coffey, V., Doering, T., Thompson, J., Benedict, C., Cedernaes, J., Lindholm, M., Craig, J., Rowlands, D., Sharples, A., Horvath, S. and Eynon, N., 2020. An epigenetic clock for human skeletal muscle. Journal of Cachexia, Sarcopenia and Muscle, 11(4), pp.887-898.
