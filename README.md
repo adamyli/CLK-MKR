@@ -36,6 +36,6 @@ The final 'Results' section is optional and only if you want to make use of the 
 
 Li, A., Vera, D., Sinclair, D., 2020. Clockmaker (CLK-MKR) : A machine learning toolkit for optimal feature selection and epigenetic clock building. Bioinformatics
 
-Li, A., Vera, D., Sinclair, D., 2020. Synthesis of novel feature selection methods and neural networks construct more efficient epigenetic clocks and detect undiscovered predictors of aging. Bioinformatics
+Li, A., Vera, D., Sinclair, D., 2020. Constructing more efficient epigenetic clocks and detecting undiscovered predictors of aging through novel feature selection methods. Bioinformatics
 
 Voisin, S., Harvey, N., Haupt, L., Griffiths, L., Ashton, K., Coffey, V., Doering, T., Thompson, J., Benedict, C., Cedernaes, J., Lindholm, M., Craig, J., Rowlands, D., Sharples, A., Horvath, S. and Eynon, N., 2020. An epigenetic clock for human skeletal muscle. Journal of Cachexia, Sarcopenia and Muscle, 11(4), pp.887-898.
