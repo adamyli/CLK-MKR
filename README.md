@@ -13,7 +13,8 @@ For the CLK-MKR pipeline to successfully read the data correctly and complete it
 - Methylation data must be in .CSV format with the only headers being CpG names and the aforementioned ‘Age’. Any other headers and the pipeline will fail.
 
 # Quick Start Guide (More details available within the notebook)
-To begin using CLK-MKR Notebook, make sure you have the methylation data of interest and start by running these two cell blocks to get the necessary dependencies and functions
+The code in the notebook is the rudimentary base code that outlines the general ideas discussed in the main paper and gives a basic introduction to the feature selection algorithms there. Its highly recommended that you refer to the paper and adjust the algorithms and your code for specific contexts and uses.
+To begin using notebook, make sure you have the methylation data of interest and start by running these two cell blocks to get the necessary dependencies and functions
 
 ![part 1](https://user-images.githubusercontent.com/25240354/100318143-d8f21400-2fbd-11eb-948e-fc1bd4c0c9de.png)
 
@@ -21,13 +22,9 @@ Next simply run the feature selection function below, where the filepath argueme
 
 ![part 2](https://user-images.githubusercontent.com/25240354/100318477-69c8ef80-2fbe-11eb-93c2-017c5d327daa.png)
 
-This concludes the CpG selection and Clock building process. It can take a long time, and you should be able to see the processes running in the output.
-When the results are printed and it says 'Finished' you will have the 5 files listed in the notebook available for download.
-Thats the bulk of the tool over! Your finished clock and best CpGs are now available for download and study.
-
-The final 'Results' section is optional and only if you want to make use of the two extra files 'labelled_best_cpgs.csv' and 'age_graph.csv'. The following code will plot the graphs described in the notebook along with the age group clusters
-
-![part 3](https://user-images.githubusercontent.com/25240354/100319204-89ace300-2fbf-11eb-97e4-5c7942cc567d.png)
+This concludes the main CpG selection process. It can take a long time, and you should be able to see the processes running in the output. When the results are printed and it says 'Finished' you will have the results files listed in the notebook available for download. Thats the bulk of the tool over! 
+Included in the notebook are beginner level methods of testing out the feature selected CpGs as well as building a basic clock from them. However more experienced users should use their features to build more specialized models for their own use case.
+Your finished clock and best CpGs are now available for download and study.
 
 ### References:
 
