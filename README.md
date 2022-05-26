@@ -1,7 +1,7 @@
 # CLK-MKR
 ## Clockmaker: A machine learning toolkit for optimal feature selection and epigenetic clock building 
 
-Clockmaker (CLK-MKR) is a toolkit for biologists and aging scientists to create their own epigenetic clock from their methylation data.
+Clockmaker (CLK-MKR) is a toolkit for biologists and aging scientists to create their own epigenetic clock from their methylation data. However these feature selection methods can be extended to be used to find biomarkers in other datasets, create clocks from other -omics data and generally select features associated with a label in a machine learning model environment.
 CLK-MKR uses contemporary feature selection methods (Feature selection paper 2020) to select the best CpG sites to use as predictors for aging. 
 It then builds a clock tuned with optimal hyperparameters that researchers can download to use to predict the epigenetic age of any future samples.
 As an added bonus some visualization and clustering of results are also provided.
